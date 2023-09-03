@@ -1,0 +1,158 @@
+*{
+    padding: 0px;
+    margin:  0px;
+
+}
+body{
+    
+    /* background-color: violet; */
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    }
+    content{
+        
+    }
+   
+header{
+    font-size: 1rem;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.navbar{
+    background-color: azure;
+    border-radius: 0px;
+    padding: 0px;  
+    margin: 0px;  
+    position: fixed;
+    width: 100%;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 10px 50px;
+    
+    }
+.navbar a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.navbar a:hover{
+    color:white;
+    background-color:black;
+    padding: 10px 10px;
+    border-radius: 7px;
+    opacity: 80%;
+}
+h3{
+    text-align: center;
+    padding-top: 100px;
+}
+.logo{
+    margin-left: 42%;
+    margin-top: 100px;
+    }
+/* .addcards{ */
+    /* width: 25%;
+    border: thick double #32a1ce;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image img{
+    width:100%; */
+/* } */
+.addcards{
+    background-color: gray;
+    display: inline-block;
+    margin-left: 50px; 
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px 0px;
+    animation-name: anime;
+    animation-duration: 4s;
+}
+.addcards1{
+    background-color: gray;
+    display: inline-block;
+     
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px 0px;
+    animation-name: anime;
+    animation-duration: 4s;
+}
+.addcards:hover{
+    transform: scale(1.1);
+    transition-duration: 0.9s;
+
+
+}
+.addcards1:hover{
+    transform: scale(1.1);
+    transition-duration: 0.9s;
+
+
+}
+.title {
+    /* color:; */
+    background-color:orange;
+    text-align: center;
+}
+.desc{
+    text-align: center;
+}
+.image img{
+    width:100%;
+    
+}
+.desc button{
+    border-radius: 6px;
+    padding: 4px 4px;
+    margin:5px 5px;
+    cursor: pointer;
+}
+button:hover{
+    color:white;
+    background-color: black;
+}
+.allcards{
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media (max-width:1112px) {
+    .navbar ul li{
+        display: block;
+    }
+    .addcards {
+       
+        display: block;
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    .addcards1{
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    .allcards{
+        display: block;
+        margin:15px 15px;
+    }
+    
+    }
+    .line p{
+        margin: 35px 5px 0px 15px;
+    }

@@ -1,0 +1,14 @@
+.course li {
+   list-style: number;
+   padding: 5px 5px;
+   color:red;
+
+}
+.course h1{
+    color: blueviolet;
+    background-color: aquamarine;
+}
+.about{
+    font-size: 23px;
+    padding-left: 10px;
+}

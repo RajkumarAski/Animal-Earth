@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ownerform</title>
+    <link rel="stylesheet" href="userform.css">
+</head>
+<body>
+    <script>
+        console.log(alert("login successfully"));
+    </script>
+    <div  class="container">
+        <form action="db.php" method="post">
+            <div class="container1">
+            <div class="usf">
+            
+                <label for="service">choose the below service</label>
+                <select name="service">
+                    <option value="select">select</option>
+                    <option value="grooming">grooming</option>
+                    <option value="pool session">pool session</option>
+                    <option value="day care facility">day care facility</option>
+                    <option value="boarding">boarding</option>
+                </select>
+            
+            </div>
+            <div class="usf">
+                <label for="timei">when will you give</label>
+                <input type="date" name="timei" required> 
+                
+            </div>
+            <div class="usf">
+                <label for="timeo">when will you take back</label>
+                <input type="date" name="timeo" required> 
+                
+            </div>
+            <label>select dog breed</label>
+              <div class="usf"> 
+                <!-- <label for="breed">enter breed name</label> --> -->
+                <!-- <input type="text" name="breed" required>  -->
+                
+                <select name="service">
+                    <option value="gernam">german</option>
+                    <option value="giolden">golden</option>
+                    <option value="husky">husky</option>
+                    <option value="rott">rott</option>
+                    </select>select>
+                
+            </div>
+            <div class="usf">
+                <label for="age">enter age of dog/puppy name</label>
+                <input type="float" name="age" required> 
+                
+            </div>
+            <div class="usf">
+                <label name="gender">Gender</label>
+                <input type="radio" name="gender" value="male">male
+                <input type="radio" name="gender" value="female">female
+            </div>
+            <div class="usf">
+                <input type="submit" value="click to submit" > 
+                
+            </div>
+        </div>
+        </form>
+    </div>
+    <div class="logout">
+        <a href="index.html"> Logout</a>
+    </div>
+    
+</body>
+</html>

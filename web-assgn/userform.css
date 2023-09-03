@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: centre;
+    padding-top: 10%;
+    /* border: 3px solid black; */
+    
+}
+.container1{
+    border: 3px solid black;
+    border-radius: 20px;
+}
+/* .usf form{
+    display:table;
+    display: table-row;
+} */
+.usf label{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    width:200px
+}
+.usf input{
+    display: inline-block;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+label,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+.logout{
+    padding-left: 45%;
+    padding-top:20px;
+}
